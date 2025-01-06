@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EasyWords")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a17e5e9b8bc417f2ff072e0e88c7295227c234ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab1411ef755f1a6a3632b58148e6d21fd82ef6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EasyWords")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EasyWords")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

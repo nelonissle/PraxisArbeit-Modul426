@@ -8,11 +8,4 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Controls\" />
-    <Folder Include="Common\" />
-    <Folder Include="Data\" />
-    <Folder Include="Windows\" />
-  </ItemGroup>
-
 </Project>
