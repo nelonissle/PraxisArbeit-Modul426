@@ -55,10 +55,6 @@ dkms.conf
 # Wenn man das Nicht Ignoriert kann es Nicht Funktionieren wegen der "Permission"
 .vs/
 
-# Ignoriere Build-Ordner in EasyWords
-PraxisArbeit-Modul426/EasyWords/bin/
-PraxisArbeit-Modul426/EasyWords/obj/
-
 # Generische Regeln für alle Projekte
 bin/
 obj/
