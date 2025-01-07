@@ -51,5 +51,11 @@ namespace WPFWordListApp.Views
             infoWindow.Show();
             this.Close();
         }
+        private void OpenLearningPage_Click(object sender, RoutedEventArgs e)
+        {
+            Learningpage infoWindow = new Learningpage();
+            infoWindow.Show();
+            this.Close();
+        }
     }
 }
