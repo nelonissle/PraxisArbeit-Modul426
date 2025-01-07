@@ -54,3 +54,8 @@ dkms.conf
 # Ignore .vs
 # Wenn man das Nicht Ignoriert kann es Nicht Funktionieren wegen der "Permission"
 .vs/
+
+
+# Ignore build outputs dir
+bin/
+obj/
