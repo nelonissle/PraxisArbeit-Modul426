@@ -7,12 +7,12 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="InfoPage.xaml.cs">
+    <Compile Update="Pages\InfoPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="InfoPage.xaml">
+    <Page Update="Pages\InfoPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\LearningPage.xaml">
@@ -21,10 +21,10 @@
     <Page Update="Pages\LecturePage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Pages\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="SettingsPage.xaml">
+    <Page Update="Pages\SettingsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="views\MainWindow.xaml">

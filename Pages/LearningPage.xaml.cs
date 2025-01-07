@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WPFWordListApp;
+using WPFWordListApp.Views;
 
 namespace WPFWordListApp
 {
@@ -35,7 +36,7 @@ namespace WPFWordListApp
 
         private void OpenSettingsPage_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow infoWindow = new MainWindow();
+            SettingsPage infoWindow = new SettingsPage();
             infoWindow.Show();
             this.Close();
         }

@@ -11,7 +11,7 @@
                 <Button Content="🔼" Width="40" Height="40" Margin="5" Background="#D1C4" />
                 <Button Content="➕" Width="40" Height="40" Margin="5" Background="#D1C4" />
                 <Button Name="Lecture" Content="LE" Width="40" Height="40" Margin="5" Background="#D1C4" />
-                <Button Name="Settings" Content="⚙" Width="40" Height="40" Margin="5" Background="#D1C4" />
+                <Button Click="OpenSettingsPage_Click" Name="Settings" Content="⚙" Width="40" Height="40" Margin="5" Background="#D1C4" />
             </StackPanel>
         </DockPanel>
 
