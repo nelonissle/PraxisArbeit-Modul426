@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using EasyWords;
+using System.Windows;
 
 namespace WPFWordListApp.Views
 {
@@ -43,6 +44,12 @@ namespace WPFWordListApp.Views
         private void ExportData_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Stand wurde exportiert.", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+        private void OpenInfoPage_Click(object sender, RoutedEventArgs e)
+        {
+            InfoPage infoWindow = new InfoPage();
+            infoWindow.Show();
+            this.Close();
         }
     }
 }

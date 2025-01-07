@@ -7,6 +7,14 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="InfoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="InfoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Pages\LearningPage.xaml">
       <SubType>Designer</SubType>
     </Page>
