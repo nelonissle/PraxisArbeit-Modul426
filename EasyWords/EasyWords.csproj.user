@@ -7,7 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="LearningPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LecturePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
