@@ -27,7 +27,7 @@
 
         <!-- Header -->
         <DockPanel Background="#D1C3" Height="50" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
-            <Button Click="OpenMainWindowPage_Click" Content="⬅ Zurück" Width="100" Height="30" Margin="10" Background="#D1C4"/>
+            <Button Click="OpenSettingsPage_Click" Content="⬅ Zurück" Width="100" Height="30" Margin="10" Background="#D1C4"/>
             <TextBlock Text="Info" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="250,0,0,0" />
             <materialDesign:PackIcon Kind="Information" Margin="5, 17, 0, 0" Height="20" Width="20"/>
         </DockPanel>

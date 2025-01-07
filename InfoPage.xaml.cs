@@ -37,12 +37,11 @@ namespace EasyWords
             InitializeComponent();
         }
 
-        // Button-Click Event, um InfoWindow zu öffnen und MainWindow zu schließen
         private void OpenSettingsPage_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow infoWindow = new MainWindow();
-            infoWindow.Show(); // InfoWindow anzeigen
-            this.Close(); // MainWindow schließen
+            SettingsPage infoWindow = new SettingsPage();
+            infoWindow.Show();
+            this.Close();
         }
     }
 }

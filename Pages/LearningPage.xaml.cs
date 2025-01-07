@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyWords;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,6 +31,13 @@ namespace WPFWordListApp
             LecturePage lecturePage = new LecturePage();
             lecturePage.Show(); // Zeige die LecturePage
             this.Close(); // Schließe die LearningPage
+        }
+
+        private void OpenSettingsPage_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow infoWindow = new MainWindow();
+            infoWindow.Show();
+            this.Close();
         }
     }
 }

@@ -7,7 +7,7 @@
         <DockPanel Background="#D1C3" Height="50" VerticalAlignment="Top">
             <Button Content="⬅ Zurück" Width="100" Height="30" Margin="10" Background="#D1C4" />
             <TextBlock Text="Einstellungen" FontSize="16" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,0,0,0" />
-            <Button Click="OpenSettingsPage_Click" Content="Info" Width="40" Height="30" Margin="10" Background="#D1C4" HorizontalAlignment="Right" />
+            <Button Click="OpenInfoPage_Click" Content="Info" Width="40" Height="30" Margin="10" Background="#D1C4" HorizontalAlignment="Right" />
         </DockPanel>
 
         <!-- Main Content -->
