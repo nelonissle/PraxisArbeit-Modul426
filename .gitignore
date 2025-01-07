@@ -55,7 +55,10 @@ dkms.conf
 # Wenn man das Nicht Ignoriert kann es Nicht Funktionieren wegen der "Permission"
 .vs/
 
-
-# Ignore build outputs dir
+# Ignoriere Build-Ordner in EasyWords
 EasyWords/bin/
 EasyWords/obj/
+
+# Generische Regeln für alle Projekte
+bin/
+obj/
