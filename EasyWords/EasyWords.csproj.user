@@ -7,10 +7,10 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="LearningPage.xaml">
+    <Page Update="Pages\LearningPage.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="LecturePage.xaml">
+    <Page Update="Pages\LecturePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

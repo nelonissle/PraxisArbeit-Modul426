@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <!-- Textblock für den Willkommenstext -->
+        <TextBlock Text="Willkommen zu unserer Lern-App" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Top" 
+                   FontSize="24" 
+                   Margin="0,50,0,0"/>
 
+        <!-- Button, um auf eine andere Seite zu navigieren -->
+        <Button Content="Start" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Margin="0,0,0,30" 
+                Padding="10,5" 
+                FontSize="16" 
+                Click="NavigateButton_Click"/>
     </Grid>
 </Window>

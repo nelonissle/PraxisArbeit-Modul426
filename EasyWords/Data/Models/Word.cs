@@ -6,10 +6,12 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
-using EasyWord;
-using EasyWord.Common;
+// EasyWord;
+//using EasyWord.Common;
 using EasyWords;
 
+
+/*
 /// <summary>
 /// Logic to Read the words
 /// Backlog 1 erst Später hinzufügen 
@@ -266,3 +268,4 @@ namespace EasyWord.Data.Models
 
     }
 }
+*/

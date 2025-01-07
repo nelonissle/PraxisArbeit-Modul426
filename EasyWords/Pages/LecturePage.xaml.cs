@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Windows;
 using WPFWordListApp.Models;
+
+
 namespace WPFWordListApp
 {
+
+
     public partial class Learningpage : Window
     {
         public string CurrentWord { get; set; } = "Fenêtre";

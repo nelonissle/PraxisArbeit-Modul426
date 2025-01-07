@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPFWordListApp;
 
 namespace EasyWords
 {
@@ -19,6 +20,14 @@ namespace EasyWords
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void NavigateButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Öffne die LearningPage
+            Learningpage learningPage =  new Learningpage();
+            learningPage.Show(); // Zeige die Seite an
+            this.Close(); // Schließe die aktuelle Seite (optional)
         }
     }
 }

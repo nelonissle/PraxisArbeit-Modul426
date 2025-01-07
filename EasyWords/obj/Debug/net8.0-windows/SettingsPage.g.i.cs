@@ -52,7 +52,7 @@ namespace WPFWordListApp.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/EasyWords;V1.0.0.0;component/settingspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/EasyWords;component/settingspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SettingsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

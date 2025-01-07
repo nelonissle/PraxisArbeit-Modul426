@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WPFWordListApp;
 
 namespace WPFWordListApp
 {
@@ -22,6 +23,13 @@ namespace WPFWordListApp
         public void LearningPage()
         {
             InitializeComponent();
+        }
+        private void NavigateButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Navigiere zur LecturePage
+            LecturePage lecturePage = new LecturePage();
+            lecturePage.Show(); // Zeige die LecturePage
+            this.Close(); // Schließe die LearningPage
         }
     }
 }
