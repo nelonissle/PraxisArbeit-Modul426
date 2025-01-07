@@ -57,5 +57,5 @@ dkms.conf
 
 
 # Ignore build outputs dir
-bin/
-obj/
+EasyWords/bin/
+EasyWords/obj/
