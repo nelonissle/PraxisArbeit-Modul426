@@ -56,8 +56,8 @@ dkms.conf
 .vs/
 
 # Ignoriere Build-Ordner in EasyWords
-EasyWords/bin/
-EasyWords/obj/
+PraxisArbeit-Modul426/EasyWords/bin/
+PraxisArbeit-Modul426/EasyWords/obj/
 
 # Generische Regeln für alle Projekte
 bin/
