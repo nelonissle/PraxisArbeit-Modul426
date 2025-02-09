@@ -40,5 +40,10 @@ namespace WPFWordListApp
             infoWindow.Show();
             this.Close();
         }
+        public void OnLearningCompleted()
+        {
+            StatisticsManager statsManager = new StatisticsManager();
+            statsManager.ShowStatisticsPopup();
+        }
     }
 }
